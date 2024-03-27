@@ -64,7 +64,6 @@
       //log('Requesting any Bluetooth Device...');
       navigator.bluetooth.requestDevice({ filters: [{ name: 'cebBluetooth' }],
       optionalServices: [_serv_uuid]
-    
     })
       .then(device1 => {
         bluetoothDevice1 = device1;
